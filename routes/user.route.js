@@ -277,12 +277,12 @@ userRoute.post("/login", async (req, res) => {
 //       },
 //     });
 
-    // let mailOptions = {
-    //   from: "kothawaderitesh2010.com",
-    //   to: email,
-    //   subject: "OTP verifecation mail",
-    //   html: `<p>HI ${name} <br> please use this OTP to update password.<br> ${otp} </p>`,
-    // };
+// let mailOptions = {
+//   from: "kothawaderitesh2010.com",
+//   to: email,
+//   subject: "OTP verifecation mail",
+//   html: `<p>HI ${name} <br> please use this OTP to update password.<br> ${otp} </p>`,
+// };
 
 //     transporter.sendMail(mailOptions, (error, info) => {
 //       if (error) {
