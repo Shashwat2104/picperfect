@@ -26,7 +26,7 @@ app.get("/", async (req, res) => {
     res.send({ ok: false, msg: error.message });
   }
 });
-// app.use(authMiddleWare)
+app.use(authMiddleWare)
 app.use("/user", userRoute);
 
 app.use("/auth", authRoute);
